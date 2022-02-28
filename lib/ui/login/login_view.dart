@@ -6,7 +6,7 @@ import 'package:mvvmtest/ui/login/login_view_model.dart';
 
 import 'bloc/login_bloc.dart';
 
-class LoginView extends LoginViewModel with LoginResources {
+class LoginView extends LoginViewModel  {
   final GlobalKey<FormState> formKey = GlobalKey<FormState>();
   final TextEditingController controllerEmail = TextEditingController();
   final TextEditingController controllerPassword = TextEditingController();

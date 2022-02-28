@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:mvvmtest/ui/login/bloc/login_bloc.dart';
 import 'package:mvvmtest/ui/login/login.dart';
 
-abstract class LoginViewModel extends State<Login> {
+abstract class LoginViewModel extends State<Login> with LoginResources {
   LoginBloc? loginBloc;
 
   @override
